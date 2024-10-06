@@ -1,0 +1,41 @@
+[{
+  "console_id": 1,
+  "name": "Atari 2600",
+  "manufacturer": "Atari Inc",
+  "generation":"Second",
+  "unitSold":"30 millions",
+  "yearRelease": "1977",
+  "yearDiscont": "1992"
+},{
+ "console_id": 2,
+  "name": "Colecovision",
+  "manufacturer": "Coleco",
+  "generation":"Second",
+  "unitSold":"2 millions",
+  "yearRelease": "1982",
+  "yearDiscont": "1985"
+},{
+ "console_id": 3,
+  "name": "Nintendo E.S",
+  "manufacturer": "Nintendo",
+  "generation":"Third",
+  "unitSold":"62 millions",
+  "yearRelease": "1985",
+  "yearDiscont": "1995"
+},{
+ "console_id": 4,
+  "name": "Sega Genesis",
+  "manufacturer": "Sega",
+  "generation":"Fourth",
+  "unitSold":"31 millions",
+  "yearRelease": "1989",
+  "yearDiscont": "1997"
+},{
+  "console_id": 5,
+   "name": "PlayStation 1",
+   "manufacturer": "Sony",
+   "generation":"Fifth",
+   "unitSold":"102 millions",
+   "yearRelease": "1995",
+   "yearDiscont": "2006"
+  }]
