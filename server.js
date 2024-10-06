@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     next();
   });
 
-app.use('/', require('./routes/computers'));
+  app.use('/', require('./routes'));
 
   mongodb.conectDB ((error)=>{
     if (error) {

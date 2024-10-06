@@ -5,17 +5,14 @@ const controller = require('../controllers/computers');
 // router.get('/', (req,res)=>{
 //     res.send('Hello Diego');
 // });
-router.get('/', (req, res) => {
-    //swagger.tags=['Hello World']
-    res.send("Hello world");
-})
+
 
 // --- ROUTES -- ENDPOINTS
-router.get('/consoles', controller.getAll);
-router.get('/consoles/:id', controller.getSingle);
-router.post('/consoles',controller.createCons);
-router.put('/consoles/:id', controller.updateCons);
-router.delete('/consoles/:id', controller.deleteCons);
+router.get('/', controller.getAll);
+router.get('/:id', controller.getSingle);
+router.post('/',controller.createCons);
+router.put('/:id', controller.updateCons);
+router.delete('/:id', controller.deleteCons);
 
 
 

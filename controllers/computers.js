@@ -7,6 +7,7 @@ const ObjectId = require ('mongodb').ObjectId;
 //--FUNCTION TO GET ALL THE CONSOLE COLLECTION
 //--------------------------------------------
 const getAll = async (req, res, next) => {
+    // swagger.tags = ['Retro Consoles'];
     try{
       const result = await mongodb
           .getDB()
