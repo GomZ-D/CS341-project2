@@ -107,8 +107,8 @@ const deleteCons= async(req,res)=>{
       .getDB()
       .db()
       .collection('consoles')
-      .remove({_id:consoleId},true);
-      console.log(result);
+      .deleteOne({_id:consoleId});
+    //   console.log(result);
       if (result.deletedCount > 0) {
         res.status(204).send();
       }else {

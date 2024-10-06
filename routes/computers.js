@@ -15,7 +15,7 @@ router.get('/consoles', controller.getAll);
 router.get('/consoles/:id', controller.getSingle);
 router.post('/consoles',controller.createCons);
 router.put('/consoles/:id', controller.updateCons);
-router.delete('/console/:id', controller.deleteCons);
+router.delete('/consoles/:id', controller.deleteCons);
 
 
 

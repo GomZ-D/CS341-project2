@@ -1,0 +1,42 @@
+# -----Test Server
+GET http://localhost:3000
+
+
+### ----- Get All Consoles
+GET http://localhost:3000/consoles
+
+
+### -----Get ONE Console 
+GET http://localhost:3000/consoles/670206aeab1bac15ffde44ce
+
+
+### ------Create a NEW Console
+POST http://localhost:3000/consoles/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "console_id":6,
+    "name": "Magnavox Odyssey",
+    "manufacturer": "Magnavox",
+    "generation": "First",
+    "unitSold": "350 Mil",
+    "yearRelease": "1972",
+    "yearDiscont": "1980"
+}
+
+### -----Update a Console Document
+PUT http://localhost:3000/consoles/67023953a9a2c31805cf38b7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "console_id":6,
+    "name": "Magnavox Odyssey",
+    "manufacturer": "Magnavox",
+    "generation": "First",
+    "unitSold": "350 Mil",
+    "yearRelease": "1972",
+    "yearDiscont": "1975"
+}
+
+### -----Delete a Console Document 
+DELETE http://localhost:3000/consoles/67023953a9a2c31805cf38b7 HTTP/1.1
