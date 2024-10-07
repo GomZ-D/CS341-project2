@@ -5,7 +5,7 @@
     "description": "Consoles APIs",
     "version": "1.0.0"
   },
-  "host": "https://cs341-project2-57lm.onrender.com",
+  "host": "cs341-project2-57lm.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
