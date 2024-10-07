@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ### -----Update a Console Document
-PUT http://localhost:3000/consoles/67023953a9a2c31805cf38b7 HTTP/1.1
+PUT http://localhost:3000/consoles/  HTTP/1.1
 Content-Type: application/json
 
 {
@@ -39,4 +39,4 @@ Content-Type: application/json
 }
 
 ### -----Delete a Console Document 
-DELETE http://localhost:3000/consoles/67023953a9a2c31805cf38b7 HTTP/1.1
+DELETE http://localhost:3000/consoles/  HTTP/1.1

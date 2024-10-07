@@ -20,6 +20,11 @@ app.use((req, res, next) => {
 
   app.use('/', require('./routes'));
 
+//CHECK FOR ANY ERROR 
+process.on('uncaughtException', (err,origin)=> {
+    console.log(process.stderr.fd, `Cought exception: ${err}\n` + `Exception origin: ${origin}`);
+  } )
+
   mongodb.conectDB ((error)=>{
     if (error) {
         console.log(error);

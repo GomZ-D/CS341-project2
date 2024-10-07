@@ -6,7 +6,7 @@ const doc = {
         description: 'Consoles APIs'
     },
     host: 'localhost:3000',
-    scheme: ['http', 'https']
+    scheme: ['https']
 };
 
 const outputFile = './swagger.json';
