@@ -39,7 +39,7 @@ app
 
   .use(cors({methods: ['GET','POST','DELETE','UPDATE','PUT','PATHC']}))
   .use(cors({origin: '*'}))
-  .use('/', require('./routes'))
+  .use('/', require('./routes/index'))
 
 //passport - Github
 passport.use(new GitHubStrategy({
